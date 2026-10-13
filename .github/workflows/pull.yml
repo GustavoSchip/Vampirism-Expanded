@@ -41,5 +41,5 @@ jobs:
             - name: Make Gradle wrapper executable
               run: chmod +x ./gradlew
 
-            - uses: pre-commit-ci/lite-action@v1.1.0
+            - uses: pre-commit-ci/lite-action@v1.2.0
               if: always()
